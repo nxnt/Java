@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Pro3_2_64010084 {
     
     public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class Pro3_2_64010084 {
         list2 = convert(b);
         sn.close();
         int result = merge(list1, list2).length;
-        System.out.println("The merged list is ");
+        System.out.print("The merged list is ");
         for(int i = 0; i < result; i ++) {
 
             System.out.print(merge(list1, list2)[i] + " ");
