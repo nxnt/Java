@@ -64,12 +64,12 @@ public class Pro3_3_64010084 {
             }
             if(sum == 0) {
 
-                System.out.println("All 0s on row " + (x + 1));
+                System.out.println("All 0s on row " + x);
                 check = true;
             }
             if(sum == matrix.length) {
 
-                System.out.println("All 1s on row " + (x + 1));
+                System.out.println("All 1s on row " + x);
                 check = true;
             }
         }
@@ -91,12 +91,12 @@ public class Pro3_3_64010084 {
             }
             if(sum == 0) {
 
-                System.out.println("All 0s on column " + (x + 1));
+                System.out.println("All 0s on column " + x);
                 check = true;
             }
             if(sum == matrix.length) {
 
-                System.out.println("All 1s on column " + (x + 1));
+                System.out.println("All 1s on column " + x);
                 check = true;
             }
         }
