@@ -6,8 +6,9 @@ public class Pro3_1_64010084 {
         for (int i = 2; count < 100; i++) {
 
             if(isPrime(i) && isPalin(i)) {
-                System.out.print(i + ((count % 10) > 0 ? " " : "\n"));
+                
                 count++;
+                System.out.print(i + ((count % 10) > 0 ? " " : "\n"));
             }
         }
     }
