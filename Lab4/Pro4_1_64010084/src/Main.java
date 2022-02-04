@@ -2,7 +2,7 @@ public class Main {
     
     public static void main(String[] args) {
         
-        Stock object = new Stock("ORCL", "Oracle Corporation", 34.5, 34.35);
+        Stock object = new Stock("ORCL", "Oracle Corporation");
         object.getChangePrecent();
         System.out.println("Symbol: " + object.symbol);
         System.out.println("Name: " + object.name);
