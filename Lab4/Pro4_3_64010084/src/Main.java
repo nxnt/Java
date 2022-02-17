@@ -12,7 +12,7 @@ public class Main {
         stopwatch.stop();
         printList(list);
         System.out.println("Sorting stopwatch stoped.");
-        System.out.printf("The sort time is %.1f milliseconds.",stopwatch.getElapsedTime());
+        System.out.printf("The sort time is %.1f milliseconds.\n",stopwatch.getElapsedTime());
         System.out.println("------------------------------------------------------------");
         System.out.println("The palindromPrime stopwatch starts...\nCreating 1000 PalindromPrime...");
         stopwatch.start();
@@ -35,16 +35,16 @@ public class Main {
 
         for(int i = 0; i < 10; i++) {
 
-            System.out.printf("\t%.2f",list[i]);
+            System.out.printf("%10.2f",list[i]);
             if((i + 1) % 5 == 0) {
 
                 System.out.println();
             }
         }
-        System.out.println("\t...");
+        System.out.println("    ...");
         for(int j = 990; j < 1000; j++) {
 
-            System.out.printf("\t%.2f",list[j]);
+            System.out.printf("%10.2f",list[j]);
             if((j + 1) % 5 == 0) {
 
                 System.out.println();
@@ -74,9 +74,9 @@ public class Main {
     public static void PalindromPrime() {
 
         int count = 0;
-        for (int i = 2; count < 100; i++) {
+        for (int i = 2; count < 1000; i++) {
     
-            if(isPrime(i) && isPalin(i)) {
+            if(isPalin(i) && isPrime(i)) {
                     
                 count++;
                 System.out.print(i + ((count % 10) > 0 ? " " : "\n"));

@@ -3,7 +3,7 @@ public class Main {
 
     public static void main(String[] args) {
         
-        GregorianCalendar currentTime = new GregorianCalendar();
+        GregorianCalendar currentTime = new GregorianCalendar(2021,0,31);
         System.out.println("Current year, month, date, and day of week");
         System.out.println("Year is " + currentTime.get(GregorianCalendar.YEAR));
         System.out.println("Month is " + currentTime.get(GregorianCalendar.MONTH));
