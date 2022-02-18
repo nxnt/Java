@@ -27,12 +27,12 @@ public class RegularPolygon {
 		this.y = y;
 	}
 
-    double getPerimeter() {
+    public double getPerimeter() {
 
         return this.n * this.side;
     }
 
-    double getArea() {
+    public double getArea() {
 
         return (this.n * this.side * this.side) / (4 * Math.tan(Math.PI / this.n));
     }

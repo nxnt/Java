@@ -18,42 +18,42 @@ public class Account {
         this.datecreated = new Date();
     }
 
-    double getMonthlyInterestRate() {
+    public double getMonthlyInterestRate() {
 
         return this.annualInterestRate / 12;
     }
 
-    double getMonthlyInterest() {
+    public double getMonthlyInterest() {
 
         return getMonthlyInterestRate() * this.balance;
     }
 
-    void withdraw(double amount) {
+    public void withdraw(double amount) {
 
         this.balance -= amount;
     }
 
-    void deposit(double amount) {
+    public void deposit(double amount) {
 
         this.balance += amount;
     }
 
-    double getBalance() {
+    public double getBalance() {
 
         return this.balance;
     }
 
-    Date getDatecreated() {
+    public Date getDatecreated() {
 
         return this.datecreated;
     }
 
-    double getAnnualInterestrate() {
+    public double getAnnualInterestrate() {
 
        return this.annualInterestRate;
     }
 
-    void setAnnualInterestRate(double annualInterestRate) {
+    public void setAnnualInterestRate(double annualInterestRate) {
 
         this.annualInterestRate = annualInterestRate;
     }
