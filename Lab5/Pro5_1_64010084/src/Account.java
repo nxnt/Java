@@ -6,6 +6,11 @@ public class Account {
     private double annualInterestRate;
     private Date datecreated;
 
+    Account() {
+
+        this.id = 0;
+        this.balance = 0;
+    }
     Account(int id, double balance) {
 
         this.id = id;
@@ -31,11 +36,6 @@ public class Account {
     void deposit(double amount) {
 
         this.balance += amount;
-    }
-
-    int getId() {
-
-        return this.id;
     }
 
     double getBalance() {
