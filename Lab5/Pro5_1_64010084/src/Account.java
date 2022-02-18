@@ -38,6 +38,21 @@ public class Account {
         this.balance += amount;
     }
 
+    public void setID(int id) {
+
+        this.id = id;
+    }
+
+    public int getID() {
+
+		return this.id;
+	}
+
+    public void setBalance(double balance) {
+
+		this.balance = balance;
+	}
+
     public double getBalance() {
 
         return this.balance;
