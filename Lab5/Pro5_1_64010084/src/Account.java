@@ -38,12 +38,12 @@ public class Account {
         this.balance += amount;
     }
 
-    public void setID(int id) {
+    public void setId(int id) {
 
         this.id = id;
     }
 
-    public int getID() {
+    public int getId() {
 
 		return this.id;
 	}

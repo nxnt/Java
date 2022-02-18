@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         
         RegularPolygon polygon1 = new RegularPolygon();
         System.out.println("Polygon 1 : ");
